@@ -7,7 +7,7 @@ val  < 20  => Large
 val  >= 20  => Huge
 
 Ans.
-
+```js
 let val=6
 if(val<5){
     console.log("Tiny");
@@ -30,6 +30,8 @@ else if(val>=30){
     
 }
 
+```
+
 2. Use the switch case and create an application with the following roles.
 
 admin => gets full access
@@ -38,6 +40,7 @@ testPrep => gets access to create and delete tests
 user => gets access to consume contents
 
 Ans. 
+```js
 let roles=["admin","subAdmin","testPrep","user"]
 let role="subAdmin"
 switch (role) {
@@ -72,4 +75,4 @@ switch (role) {
         
         break;
 }
-
+```

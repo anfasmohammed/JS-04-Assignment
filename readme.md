@@ -1,15 +1,22 @@
 1. Write a chained if / else-if statement to fill in the following       conditions
 
 val  < 5  =>  Tiny
+
 val  < 10  =>  Small
+
 val  < 15  =>  Medium
+
 val  < 20  => Large
+
 val  >= 20  => Huge
 
 Ans.
 
+
 let val=6
+
 if(val<5){
+
     console.log("Tiny");
     
 }
@@ -33,15 +40,24 @@ else if(val>=30){
 2. Use the switch case and create an application with the following roles.
 
 admin => gets full access
+
 subAdmin => gets access to create and delete courses
+
 testPrep => gets access to create and delete tests
+
 user => gets access to consume contents
 
-Ans. 
+
+Ans.
+
 let roles=["admin","subAdmin","testPrep","user"]
+
 let role="subAdmin"
+
 switch (role) {
+
     case "admin":{
+    
         console.log("gets full access");
         
     }

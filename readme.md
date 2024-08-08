@@ -16,8 +16,7 @@ Ans.
 let val=6
 
 if(val<5){
-
-    console.log("Tiny");
+     console.log("Tiny");
     
 }
 else if(val<10){
